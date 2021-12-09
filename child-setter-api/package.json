@@ -1,0 +1,40 @@
+{
+  "name": "child-setter-app",
+  "version": "1.0.0",
+  "description": "child-setter-app",
+  "author": "Thomas Perche",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ThPch/child-setter-app"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=8.3.0",
+    "npm": ">=5.3.0",
+    "yarn": ">=0.27.5"
+  },
+  "scripts": {
+    "start": "node -r dotenv index.js",
+    "test": "mocha \"test/**/*.js\""
+  },
+  "dependencies": {
+    "@hapi/boom": "^9.1.0",
+    "@hapi/hapi": "^20.0.3",
+    "@octokit/auth-oauth-app": "^3.0.6",
+    "@octokit/core": "^3.2.1",
+    "@octokit/plugin-paginate-rest": "^2.6.0",
+    "chai-http": "^4.3.0",
+    "config": "^1.26.2",
+    "dotenv": "^8.2.0",
+    "glob": "^7.1.6",
+    "http-status": "^1.5.0",
+    "lodash": "^4.17.20"
+  },
+  "devDependencies": {
+    "chai": "4.1.1",
+    "mocha": "^8.2.1",
+    "sinon": "3.2.1",
+    "sinon-chai": "2.13.0"
+  }
+}

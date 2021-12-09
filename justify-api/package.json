@@ -1,0 +1,43 @@
+{
+  "name": "justify-api",
+  "version": "1.0.0",
+  "description": "Challenge back end tictactrip",
+  "main": "app.js",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "cron": "^1.8.2",
+    "dotenv": "^8.2.0",
+    "eslint": "^7.11.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.9",
+    "validator": "^13.1.17"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.1.3"
+  },
+  "scripts": {
+    "start": "nodemon -r app.js ./.env --exec babel-node -e js",
+    "eslint": "eslint",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThPch/justify-api.git"
+  },
+  "keywords": [
+    "tictactrip"
+  ],
+  "author": "Thomas Perche",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThPch/justify-api/issues"
+  },
+  "homepage": "https://github.com/ThPch/justify-api#readme"
+}

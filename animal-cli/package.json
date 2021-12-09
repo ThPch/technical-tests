@@ -1,0 +1,35 @@
+{
+  "name": "animal-cli",
+  "version": "1.0.0",
+  "description": "Animal Command Line Interface",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha \"test/**/*.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThPch/animal-cli.git"
+  },
+  "keywords": [
+    "CLI",
+    "map",
+    "filter",
+    "children",
+    "commandline"
+  ],
+  "author": "Thomas Perche",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThPch/animal-cli/issues"
+  },
+  "homepage": "https://github.com/ThPch/animal-cli#readme",
+  "devDependencies": {
+    "chai": "^4.2.0"
+  },
+  "dependencies": {
+    "mocha": "^8.2.1"
+  }
+}

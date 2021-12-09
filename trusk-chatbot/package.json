@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "inquirer": "^8.1.2",
+    "rxjs": "^7.3.0"
+  }
+}
